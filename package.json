@@ -17,5 +17,11 @@
   "bugs": {
     "url": "https://github.com/ddhewitte/digitalresto_be/issues"
   },
-  "homepage": "https://github.com/ddhewitte/digitalresto_be#readme"
+  "homepage": "https://github.com/ddhewitte/digitalresto_be#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.2",
+    "express": "^5.1.0",
+    "mongoose": "^8.18.0"
+  }
 }
