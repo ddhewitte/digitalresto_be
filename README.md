@@ -7,3 +7,9 @@ POST /api/orders → buat order baru pakai menuId dari hasil step 2.
 GET /api/orders/:tableNumber → cek order customer.
 
 PUT /api/orders/:id → update status pesanan jadi in_progress atau done.
+
+
+
+DEPLOYMENT NOTES :
+- Access network di mongodb atlas allow all 0.0.0.0/0
+- routing di vercel /api/**. 
