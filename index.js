@@ -69,5 +69,5 @@ app.put("/api/orders/:id", async (req, res) => {
   res.json(order);
 });
 
-const PORT = process.env.PORT || 5003;
+const PORT = process.env.PORT || 8080;
 app.listen(PORT, () => console.log(`Server running on ${PORT}`));
